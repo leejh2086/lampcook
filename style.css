@@ -1,0 +1,321 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#div_wrap {
+	width:100%;
+	
+}
+
+#div_wrap_top {
+	width:100%;
+	height: 130px;
+	
+}
+
+#top_menu_m {
+	width: 100%;
+	top:0;
+	position: fixed;
+}
+
+.glo_ul {
+	margin: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #fff;
+}
+
+.glo_li{
+	float:left;
+}
+
+.txt_ac{
+	text-align: center;
+}
+
+#green_menu_m {
+	width:100%;
+	height:80px;
+	
+}
+
+.green_menu_1 {
+	width:100%;
+	height:50%;
+	display:flex;
+}
+
+.green_menu_1 > li {
+	width:25%;
+	height:39px;
+	font-size:14px;
+	color:#fff;
+	border-bottom: 1px solid #fff;
+}
+
+.green_menu_div {
+	width:100%;
+	height:24px;
+	margin-top:7px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#container_m {
+	width:100%;
+	height:163px;
+	background-image: url("http://www.lampcook.com/images/main/main7.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.containerbottom_m {
+	width:100%;
+	height:58px;
+}
+
+.containerbottom_m > ul {
+	width:96%;
+	height:100%;
+	margin: 0 auto;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.containerbottom_m > ul > li {
+	font-size:20.8px;
+	font-weight: bold;
+	color: #666;
+}
+
+.menu_container_m {
+	width:96%;
+	height:700px;
+	display:grid;
+	margin: 0 auto;
+	grid-template-columns: 1fr 1fr;
+}
+
+.data_box {
+	width:90%;
+	height:90%;
+	margin:0 auto;
+	background-color:#f8f8f8;
+	
+}
+
+.data_box > .data_box_img1 {
+	width:145.8px;
+	height:90px;
+	margin: 8px 8px;
+	background-image: url("http://www.lampcook.com/wi_files/food_month/855/210557_MF_BIMG_01.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.data_box > .data_box_img2 {
+	width:145.8px;
+	height:90px;
+	margin: 8px 8px;
+	background-image: url("http://www.lampcook.com/wi_files/food_month/855/210567_MF_BIMG_01.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.data_box > .data_box_img3 {
+	width:145.8px;
+	height:90px;
+	margin: 8px 8px;
+	background-image: url("http://www.lampcook.com/wi_files/food_month/855/210558_MF_BIMG_01.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.data_box > .data_box_img4 {
+	width:145.8px;
+	height:90px;
+	margin: 8px 8px;
+	background-image: url("http://www.lampcook.com/wi_files/food_month/855/210554_MF_BIMG_01.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.data_box > .data_box_img5 {
+	width:145.8px;
+	height:90px;
+	margin: 8px 8px;
+	background-image: url("http://www.lampcook.com/wi_files/food_month/855/210563_MF_BIMG_01.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.data_box > .data_box_img6 {
+	width:145.8px;
+	height:90px;
+	margin: 8px 8px;
+	background-image: url("http://www.lampcook.com/wi_files/food_month/855/210561_MF_BIMG_01.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.data_box > .data_box_img7 {
+	width:145.8px;
+	height:90px;
+	margin: 8px 8px;
+	background-image: url("http://www.lampcook.com/wi_files/food_wellbeing/1299.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.data_box > .data_box_img8 {
+	width:145.8px;
+	height:90px;
+	margin: 8px 8px;
+	background-image: url("http://www.lampcook.com/wi_files/food_wellbeing/1062.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.data_box > .data_box_img9 {
+	width:145.8px;
+	height:90px;
+	margin: 8px 8px;
+	background-image: url("http://www.lampcook.com/wi_files/food_wellbeing/498.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.data_box > .data_box_img10 {
+	width:145.8px;
+	height:90px;
+	margin: 8px 8px;
+	background-image: url("http://www.lampcook.com/wi_files/food_wellbeing/248.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.data_box > .data_box_img11 {
+	width:145.8px;
+	height:90px;
+	margin: 8px 8px;
+	background-image: url("http://www.lampcook.com/wi_files/food_wellbeing/116.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.data_box > .data_box_img12 {
+	width:145.8px;
+	height:90px;
+	margin: 8px 8px;
+	background-image: url("http://www.lampcook.com/wi_files/food_wellbeing/891.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.data_box > .data_id {
+	width:90%;
+	height:10%;
+	font-size:16px;
+	font-weight: bold;
+	text-align: center;
+	margin-top : 16px;
+	margin-left : 8px;
+	color: #58595b;
+}
+
+.data_box > a > button {
+	background-image: url("http://www.lampcook.com/images/global/btn_all_list.png");
+	margin: 36px 40px;
+	width:80px;
+	height:20px;
+}
+#margin {
+	width:100%;
+	height: 10px;
+	margin-top: 10px;
+}
+
+footer {
+	width:100%;
+	height:270px;
+	padding-top:10px;
+	background-color: #666;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+footer > p {
+	margin-left: 8px;
+	font-size:12px;
+	font-weight: bold;
+	color:#ccc;
+}
+
+footer > div {
+	display:flex;
+	width: 100%;
+	height: 110px;
+	margin-top:10px;
+	align-items: center;
+	justify-content: center;
+}
+
+footer > div > img {
+	width: 100px;
+	height: 100px;
+}
+
+@media (min-width:767px) { /* pc버전 */
+
+footer > div {
+	justify-content: flex-end;
+}
+	
+}
